@@ -7,8 +7,12 @@ $(".slides").slick({
 });
 
 // Parallax Animation 효과 Parallax 사이트에서 코드
-$(".banner.item_01").parallax({ imageSrc: "./images/slide_02.jpg" });
-$(".banner.item_02").parallax({ imageSrc: "./images/slide_03.jpg" });
+$(".banner.item_01").parallax({
+  imageSrc: "https://deok222.github.io/new_tour/images/slide_02.jpg",
+});
+$(".banner.item_02").parallax({
+  imageSrc: "https://deok222.github.io/new_tour/images/slide_03.jpg",
+});
 
 // Animation 효과 ScrollReveal 사이트에서 코드
 ScrollReveal().reveal(".left_ani", {
